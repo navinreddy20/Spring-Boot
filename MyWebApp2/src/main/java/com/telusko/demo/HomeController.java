@@ -15,7 +15,7 @@ public class HomeController
 	{
 		HttpSession session = req.getSession();
 		String name=req.getParameter("name");
-		System.out.println("hi" + name);
+		System.out.println("Namaste" + name);
 		session.setAttribute("name",name);
 		return "home";
 	}
